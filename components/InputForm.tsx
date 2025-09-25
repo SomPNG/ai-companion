@@ -59,7 +59,7 @@ export const InputForm: React.FC<InputFormProps> = ({ onSubmit, isLoading }) => 
                     className="w-full mt-4 py-3 px-6 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 disabled:bg-slate-400 disabled:cursor-not-allowed transition-colors"
                     disabled={isLoading}
                 >
-                    {isLoading ? 'Generating...' : 'Create My Quiz'}
+                    {isLoading ? 'Analyzing...' : 'Analyze'}
                 </button>
             </form>
         </div>
