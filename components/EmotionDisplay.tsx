@@ -7,13 +7,26 @@ interface EmotionDisplayProps {
 }
 
 const emotionEmojis: { [key: string]: string } = {
-    frustration: '😤',
-    confusion: '🤔',
-    curiosity: '🧐',
-    excitement: '🤩',
-    boredom: '😴',
-    stress: '😫',
-    default: '😊',
+      frustration: '😤',
+  confusion: '🤔',
+  curiosity: '🧐',
+  excitement: '🤩',
+  boredom: '😴',
+  stress: '😫',
+  happiness: '😄',
+  sadness: '😢',
+  anger: '😡',
+  fear: '😨',
+  surprise: '😲',
+  pride: '😎',
+  embarrassment: '😳',
+  disappointment: '😞',
+  determination: '💪',
+  love: '😍',
+  hope: '🙏',
+  relief: '😌',
+  guilt: '😔',
+  default: '😊',
 };
 
 export const EmotionDisplay: React.FC<EmotionDisplayProps> = ({ emotion, topic }) => {
