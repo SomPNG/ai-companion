@@ -5,6 +5,6 @@ export default defineConfig(({ mode }) => {
     return {
       
       plugins: [react()],
-      
+      base: "/ai-companion/",
     };
 });
