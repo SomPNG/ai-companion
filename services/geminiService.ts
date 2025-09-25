@@ -12,7 +12,7 @@ const quizSchema = {
     properties: {
         emotion: {
             type: Type.STRING,
-            description: "The primary emotion detected from the user's text (e.g., Frustration, Confusion, Curiosity, Excitement).",
+            description: "The primary emotion detected from the user's text (e.g., Frustration, Confusion, Curiosity, Excitement, Stress, Sadness, Anger, Fear, Disappointment, Embarrassment, Guilt, Boredom, Loneliness, Jealousy, Happiness, Pride, Love, Hope, Relief, Determination, Gratitude, Surprise, Inspiration, Calm, Thoughtfulness, Nostalgia, Anticipation etc)",
         },
         topic: {
             type: Type.STRING,
