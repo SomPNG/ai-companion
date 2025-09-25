@@ -49,7 +49,7 @@ export const Header: React.FC<HeaderProps> = ({ onHomeClick, setView, currentVie
                 )}
             </div>
             {currentView === 'landing' && (
-                 <p className="mt-2 text-md text-slate-500 dark:text-slate-400">Turn frustration into fun with a personalized quiz!</p>
+                 <p className="mt-2 text-md text-slate-500 dark:text-slate-400">Turn hard topics into fun with a personalized quiz!</p>
             )}
         </header>
     );
